@@ -520,3 +520,23 @@ p {
   text-align: left;
   text-transform: none;
 }
+
+.pixel {
+  display: flex;
+  flex-direction: column;
+}
+
+.pixelbillede video {
+  height: 25rem;
+  width: auto;
+}
+
+.pixeltekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.pixeltekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
