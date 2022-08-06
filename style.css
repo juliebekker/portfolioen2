@@ -412,3 +412,31 @@ p {
   text-align: left;
   text-transform: none;
 }
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagrambillede {
+  grid-area: insta;
+  height: 25rem;
+  width: 25rem;
+  background: url('insta.png') 0 0 no-repeat;
+  animation: insta 8s steps(4) infinite;
+}
+
+@keyframes insta {
+  0% {background-position: 0px;}
+  100% {background-position: -1600px;}
+}
+
+.instagramtekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.instagramtekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
