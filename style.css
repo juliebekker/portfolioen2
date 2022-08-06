@@ -540,3 +540,114 @@ p {
   text-align: left;
   text-transform: none;
 }
+
+/*Datavisualisering og infografikker*/
+
+.datavisualisering {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 0 2rem;
+  padding: 0 3rem;
+}
+
+.abtion {
+  display: flex;
+  flex-direction: column;
+}
+
+.abtionbillede {}
+
+.abtiontekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.abtiontekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.plast {
+  display: flex;
+  flex-direction: column;
+}
+
+.plastbillede {}
+
+.plasttekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.plasttekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.ucl {
+  display: flex;
+  flex-direction: column;
+}
+
+.uclbillede {}
+
+.ucltekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.ucltekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.toneofvoice {
+  display: flex;
+  flex-direction: column;
+}
+
+.toneofvoicebillede {}
+
+.toneofvoicetekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.toneofvoicetekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.pp {
+  display: flex;
+  flex-direction: column;
+}
+
+.ppbillede {}
+
+.pptekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.pptekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.designthinking {
+  display: flex;
+  flex-direction: column;
+}
+
+.designthinkingbillede {}
+
+.designthinkingtekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.designthinkingtekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
