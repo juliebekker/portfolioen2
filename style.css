@@ -360,7 +360,6 @@ p {
 
 
 .produktfotobillede {
-  grid-area: produkt;
   height: 25rem;
   width: 37.5rem;
   background: url('rullen2.jpg') 0 0 no-repeat;
@@ -391,7 +390,6 @@ p {
 }
 
 .odensepridebillede {
-  grid-area: pride;
   height: 25rem;
   width: 37.5rem;
   background: url('odensepride.png') 0 0 no-repeat;
@@ -419,7 +417,6 @@ p {
 }
 
 .instagrambillede {
-  grid-area: insta;
   height: 25rem;
   width: 25rem;
   background: url('insta.png') 0 0 no-repeat;
@@ -457,7 +454,6 @@ p {
 }
 
 .katbillede {
-  grid-area: kat;
   height: 25rem;
   width: 25rem;
   background: url('storkattenn.jpg') 0 0 no-repeat;
@@ -555,7 +551,18 @@ p {
   flex-direction: column;
 }
 
-.abtionbillede {}
+.abtionbillede {
+  height: 25rem;
+  width: 31rem;
+  background: url('infografikken.png') 0 0 no-repeat;
+  animation: abtion 12s steps(6) infinite;
+}
+
+
+@keyframes abtion {
+  0% {background-position: 0px;}
+  100% {background-position: -3000px;}
+}
 
 .abtiontekst {
   margin: 3rem 0 10rem 0;
@@ -572,7 +579,11 @@ p {
   flex-direction: column;
 }
 
-.plastbillede {}
+.plastbillede {
+  height: 25rem;
+  width: 25rem;
+  background: url('plast.png');
+}
 
 .plasttekst {
   margin: 3rem 0 10rem 0;
@@ -589,7 +600,11 @@ p {
   flex-direction: column;
 }
 
-.uclbillede {}
+.uclbillede {
+  height: 37.5rem;
+  width: 25rem;
+  background: url('ucl.png');
+}
 
 .ucltekst {
   margin: 3rem 0 10rem 0;
@@ -606,7 +621,11 @@ p {
   flex-direction: column;
 }
 
-.toneofvoicebillede {}
+.toneofvoicebillede {
+  height: 25rem;
+  width: 25rem;
+  background: url('toneofvoice.png');
+}
 
 .toneofvoicetekst {
   margin: 3rem 0 10rem 0;
