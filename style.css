@@ -250,21 +250,21 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  background-color: #fed7dd;
-  border-radius: 1rem;
+  /*background-color: #fed7dd;
+  border-radius: 1rem;*/
 }
 
 .smilbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
+  margin: 0 3rem;
 }
 
 .smiltekst {
   height: auto;
   width: auto;
   line-height: 1.8;
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 .pærer {
@@ -273,21 +273,21 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  background-color: #fed7dd;
-  border-radius: 1rem;
+  /*background-color: #fed7dd;
+  border-radius: 1rem;*/
 }
 
 .pærerbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
+  margin: 0 3rem;
 }
 
 .pærertekst {
   height: auto;
   width: auto;
   line-height: 1.8;
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 .guitar {
@@ -296,19 +296,49 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 6rem;
-  background-color: #fed7dd;
-  border-radius: 1rem;
+  /*background-color: #fed7dd;
+  border-radius: 1rem;*/
 }
 
 .guitarbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
+  margin: 0 3rem;
 }
 
 .guitartekst {
   height: auto;
   width: auto;
   line-height: 1.8;
-  margin: 1rem;
+  margin: 0 1rem;
+}
+
+
+/*Kontakt*/
+
+.kontaktboks {
+  /*background-color: #fed7dd;
+  border-radius: 1rem;*/
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.kontaktmig {
+  margin: 0 3rem 3rem 0;
+  width: 40rem;
+}
+
+.kontaktmig p {
+  text-align: left;
+  text-transform: none;
+}
+
+.oplysninger {}
+
+.oplysninger p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
 }
