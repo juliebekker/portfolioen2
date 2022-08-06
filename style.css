@@ -360,22 +360,22 @@ p {
 
 
 .produktfotobillede {
-  grid-area: photos;
+  grid-area: produkt;
   height: 25rem;
   width: 37.5rem;
   background: url('rullen2.jpg') 0 0 no-repeat;
-  animation: photos 10s steps(5) infinite;
+  animation: produkt 10s steps(5) infinite;
 }
 
 
-@keyframes photos {
+@keyframes produkt {
   0% {background-position: 0px;}
   100% {background-position: -3000px;}
 }
 
 
 .produktfototekst {
-  margin: 3rem 0 3rem 0;
+  margin: 3rem 0 10rem 0;
 }
 
 
@@ -390,12 +390,21 @@ p {
   flex-direction: column;
 }
 
-.odensepridebillede {}
+.odensepridebillede {
+  grid-area: pride;
+  height: 25rem;
+  width: 37.5rem;
+  background: url('odensepride.png') 0 0 no-repeat;
+  animation: pride 20s steps(10) infinite;
+}
 
-@keyframes identifier {}
+@keyframes pride {
+  0% {background-position: 0px;}
+  100% {background-position: -6000px;}
+}
 
 .odensepridetekst {
-  margin: 3rem 0 3rem 0;
+  margin: 3rem 0 10rem 0;
 }
 
 .odensepridetekst p {
