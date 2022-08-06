@@ -75,7 +75,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   margin: 3rem;
 }
 
@@ -126,7 +126,7 @@ p {
 .boks1 {
   height: 15rem;
   width: 15rem;
-  background-color: #fed7dd;;
+  background-color: #fed7dd;
   margin: 0 3rem 0 3rem;
   display: flex;
   justify-content: center;
@@ -141,7 +141,7 @@ p {
 .boks2 {
   height: 15rem;
   width: 15rem;
-  background-color: #fed7dd;;
+  background-color: #fed7dd;
   margin: 0 3rem 0 3rem;
   display: flex;
   justify-content: center;
@@ -156,7 +156,7 @@ p {
 .boks3 {
   height: 15rem;
   width: 15rem;
-  background-color: #fed7dd;;
+  background-color: #fed7dd;
   margin: 0 3rem 0 3rem;
   display: flex;
   justify-content: center;
@@ -241,6 +241,7 @@ p {
 .ommigboks p {
   font-weight: normal;
   text-align: left;
+  text-transform: none;
 }
 
 .smil {
@@ -248,17 +249,22 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
+  background-color: #fed7dd;
+  border-radius: 1rem;
 }
 
 .smilbillede {
   height: 6.25rem;
   width: 6.25rem;
+  margin: 3rem;
 }
 
 .smiltekst {
   height: auto;
-  width: 50rem;
+  width: auto;
   line-height: 1.8;
+  margin: 1rem;
 }
 
 .pærer {
@@ -266,17 +272,22 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
+  background-color: #fed7dd;
+  border-radius: 1rem;
 }
 
 .pærerbillede {
   height: 6.25rem;
   width: 6.25rem;
+  margin: 3rem;
 }
 
 .pærertekst {
   height: auto;
   width: auto;
   line-height: 1.8;
+  margin: 1rem;
 }
 
 .guitar {
@@ -284,15 +295,20 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6rem;
+  background-color: #fed7dd;
+  border-radius: 1rem;
 }
 
 .guitarbillede {
   height: 6.25rem;
   width: 6.25rem;
+  margin: 3rem;
 }
 
 .guitartekst {
   height: auto;
   width: auto;
   line-height: 1.8;
+  margin: 1rem;
 }
