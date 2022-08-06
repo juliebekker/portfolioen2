@@ -131,6 +131,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1rem;
 }
 
 .boks1:hover {
@@ -145,6 +146,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1rem;
 }
 
 .boks2:hover {
@@ -159,6 +161,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1rem;
 }
 
 .boks3:hover {
@@ -224,4 +227,78 @@ p {
 
 .socialicon a:hover {
   color: #FFACBB;
+}
+
+/*Om mig*/
+
+.ommigboks {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+
+.ommigboks p {
+  font-weight: normal;
+  text-align: left;
+}
+
+.smil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.smilbillede {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 3rem;
+}
+
+.smiltekst {
+  height: auto;
+  width: auto;
+  line-height: 1.8;
+  margin: 3rem;
+}
+
+.pærer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pærerbillede {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 3rem;
+}
+
+.pærertekst {
+  height: auto;
+  width: auto;
+  line-height: 1.8;
+  margin: 3rem;
+}
+
+.guitar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.guitarbillede {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 3rem;
+}
+
+.guitartekst {
+  height: auto;
+  width: auto;
+  line-height: 1.8;
+  margin: 3rem;
 }
