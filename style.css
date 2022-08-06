@@ -82,6 +82,7 @@ p {
 .nav {
   margin: 3rem 3rem 0rem 1rem;
   display: flex;
+  justify-content: flex-start;
 }
 
 .nav  ul {
@@ -117,7 +118,6 @@ p {
   flex-direction: row;
   margin: 3rem 0 0 2rem;
 }
-
 
 .boks a {
   text-decoration: none;
@@ -253,14 +253,12 @@ p {
 .smilbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
 }
 
 .smiltekst {
   height: auto;
-  width: auto;
+  width: 50rem;
   line-height: 1.8;
-  margin: 3rem;
 }
 
 .pærer {
@@ -273,14 +271,12 @@ p {
 .pærerbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
 }
 
 .pærertekst {
   height: auto;
   width: auto;
   line-height: 1.8;
-  margin: 3rem;
 }
 
 .guitar {
@@ -293,12 +289,10 @@ p {
 .guitarbillede {
   height: 6.25rem;
   width: 6.25rem;
-  margin: 3rem;
 }
 
 .guitartekst {
   height: auto;
   width: auto;
   line-height: 1.8;
-  margin: 3rem;
 }
