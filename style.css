@@ -33,7 +33,7 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: auto;
+  font-size: 0.9rem;
   color: #52648e;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -164,7 +164,6 @@ p {
 .boks3:hover {
   background-color: #c8d5f6;
 }
-
 
 
 
