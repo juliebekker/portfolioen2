@@ -295,7 +295,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
   /*background-color: #fed7dd;
   border-radius: 1rem;*/
 }
@@ -436,6 +436,86 @@ p {
 }
 
 .instagramtekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+
+/*Illustationer og animationer*/
+
+.illustationerboks {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 0 2rem;
+  padding: 0 3rem;
+}
+
+.kat {
+  display: flex;
+  flex-direction: column;
+}
+
+.katbillede {
+  grid-area: kat;
+  height: 25rem;
+  width: 25rem;
+  background: url('storkattenn.jpg') 0 0 no-repeat;
+  animation: kat 1s steps(10) infinite;
+}
+
+@keyframes kat {
+  0% {background-position: 0px;}
+  100% {background-position: -4000px;}
+}
+
+.kattekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.kattekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.iso {
+  display: flex;
+  flex-direction: column;
+}
+
+.isobillede {
+  height: 25rem;
+  width: 25rem;
+  background: url('isoartstor.jpg');
+}
+
+.isotekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.isotekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.portræt {
+  display: flex;
+  flex-direction: column;
+}
+
+.portrætbillede {
+  height: 25rem;
+  width: 25rem;
+  background: url('POTRÆTstor.jpg');
+}
+
+.portrættekst {
+  margin: 3rem 0 10rem 0;
+}
+
+.portrættekst p {
   font-weight: normal;
   text-align: left;
   text-transform: none;
