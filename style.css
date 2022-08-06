@@ -342,3 +342,64 @@ p {
   text-align: left;
   text-transform: none;
 }
+
+
+/*foto og SoMe*/
+
+.fotoogsomeboks {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 0 2rem;
+  padding: 0 3rem;
+}
+
+.produktfoto {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.produktfotobillede {
+  grid-area: photos;
+  height: 25rem;
+  width: 37.5rem;
+  background: url('rullen2.jpg') 0 0 no-repeat;
+  animation: photos 10s steps(5) infinite;
+}
+
+
+@keyframes photos {
+  0% {background-position: 0px;}
+  100% {background-position: -3000px;}
+}
+
+
+.produktfototekst {
+  margin: 3rem 0 3rem 0;
+}
+
+
+.produktfototekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
+
+.odensepride {
+  display: flex;
+  flex-direction: column;
+}
+
+.odensepridebillede {}
+
+@keyframes identifier {}
+
+.odensepridetekst {
+  margin: 3rem 0 3rem 0;
+}
+
+.odensepridetekst p {
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+}
