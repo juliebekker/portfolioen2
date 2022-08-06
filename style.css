@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: left;
+  color: #ffacbb;
+  line-height: 20%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: normal;
+  color: #52648e;
+  font-family: Montserrat;
+  text-align: left;
+  line-height: 20%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.logo img {
+  width: 50%;
+  height: auto;
+}
+
+.overskrift {
+  /*box-sizing: border-box;*/
+  margin-top: 3rem;
+}
+
+.overskrift1 {}
+
+.overskrift2 {}
+
+
+
+/*Navigation og main*/
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3rem;
+}
+
+.nav {}
+
+.nav  ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: Courier;
+  text-align: right;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.nav a {
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  color: #52648e;
+}
+
+.nav a:hover {
+  background-color: #f6d7c3;
+}
+
+#siden {
+  text-decoration: underline;
+}
+
+
+.boks1 {
+  height: 15rem;
+  width: 15rem;
+  background-color: pink;
+}
+
+.boks2 {
+  height: 15rem;
+  width: 15rem;
+  background-color: lightblue;
+}
+
+.boks3 {
+  height: 15rem;
+  width: 15rem;
+  background-color: lightgreen;
+}
+
+
+
+
+
+/*Footer*/
+
+.footer {
+  background-color: #c8d5f6;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+
+}
+.socials {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+
+}
+
+.socials > p {
+  font-family: Courier;
+  color: #52648e;
+  text-transform: uppercase;
+  width: auto;
+  height: 0.5rem;
+  margin: auto;
+  padding: 0.5rem;
+
+
+}
+
+.socials > ul {
+  display: flex;
+  width: auto;
+  height: 2rem;
+  margin: auto;
+  padding: 0.5rem;
+
+
+}
+
+.socialicon {
+  list-style: none;
+}
+
+.socialicon a {
+  color: #52648e;
+  font-size: 2rem;
+  padding: 0.5rem 1.3rem;
+
+}
+
+.socialicon a:hover {
+  color: #FFACBB;
+}
