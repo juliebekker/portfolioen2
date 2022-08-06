@@ -25,6 +25,18 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 2rem;
+
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: auto;
+  color: #52648e;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 /*Header*/
@@ -38,10 +50,7 @@ h2 {
 }
 
 .logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .logo img {
@@ -51,7 +60,7 @@ h2 {
 
 .overskrift {
   /*box-sizing: border-box;*/
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .overskrift1 {}
@@ -70,7 +79,10 @@ h2 {
   margin: 3rem;
 }
 
-.nav {}
+.nav {
+  margin: 3rem 3rem 0rem 1rem;
+  display: flex;
+}
 
 .nav  ul {
   display: flex;
@@ -88,6 +100,10 @@ h2 {
   color: #52648e;
 }
 
+.nav li {
+  margin: 0.4rem 0rem 0.4rem 0rem;
+}
+
 .nav a:hover {
   background-color: #f6d7c3;
 }
@@ -96,25 +112,58 @@ h2 {
   text-decoration: underline;
 }
 
+.boks {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0 0 2rem;
+}
+
+
+.boks a {
+  text-decoration: none;
+}
 
 .boks1 {
   height: 15rem;
   width: 15rem;
-  background-color: pink;
+  background-color: #fed7dd;;
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boks1:hover {
+  background-color: #c8d5f6;
 }
 
 .boks2 {
   height: 15rem;
   width: 15rem;
-  background-color: lightblue;
+  background-color: #fed7dd;;
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boks2:hover {
+  background-color: #c8d5f6;
 }
 
 .boks3 {
   height: 15rem;
   width: 15rem;
-  background-color: lightgreen;
+  background-color: #fed7dd;;
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.boks3:hover {
+  background-color: #c8d5f6;
+}
 
 
 
@@ -124,18 +173,23 @@ h2 {
 .footer {
   background-color: #c8d5f6;
   height: 5rem;
+  width: auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
-
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+
 .socials {
   display: flex;
   align-content: space-between;
   flex-direction: column;
-
 }
+
 
 .socials > p {
   font-family: Courier;
@@ -145,9 +199,8 @@ h2 {
   height: 0.5rem;
   margin: auto;
   padding: 0.5rem;
-
-
 }
+
 
 .socials > ul {
   display: flex;
@@ -155,20 +208,20 @@ h2 {
   height: 2rem;
   margin: auto;
   padding: 0.5rem;
-
-
 }
+
 
 .socialicon {
   list-style: none;
 }
 
+
 .socialicon a {
   color: #52648e;
   font-size: 2rem;
   padding: 0.5rem 1.3rem;
-
 }
+
 
 .socialicon a:hover {
   color: #FFACBB;
