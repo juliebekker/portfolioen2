@@ -636,37 +636,3 @@ p {
   text-align: left;
   text-transform: none;
 }
-
-.pp {
-  display: flex;
-  flex-direction: column;
-}
-
-.ppbillede {}
-
-.pptekst {
-  margin: 3rem 0 10rem 0;
-}
-
-.pptekst p {
-  font-weight: normal;
-  text-align: left;
-  text-transform: none;
-}
-
-.designthinking {
-  display: flex;
-  flex-direction: column;
-}
-
-.designthinkingbillede {}
-
-.designthinkingtekst {
-  margin: 3rem 0 10rem 0;
-}
-
-.designthinkingtekst p {
-  font-weight: normal;
-  text-align: left;
-  text-transform: none;
-}
