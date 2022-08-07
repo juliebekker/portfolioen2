@@ -168,12 +168,11 @@ p {
   background-color: #c8d5f6;
 }
 
-/*.mellemrum {
-  width: auto;
+.mellemrum {
+  width: 10;
   height: 10rem;
   background-color: white;
-  margin-bottom: 10rem;
-}*/
+}
 
 
 /*Footer*/
@@ -189,7 +188,6 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-top: 10rem; 
 }
 
 
