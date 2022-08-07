@@ -76,7 +76,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 3rem 0 10rem 0;
+  margin: 3rem;
 }
 
 .nav {
@@ -189,6 +189,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-top: 10rem; 
 }
 
 
