@@ -116,7 +116,7 @@ p {
 .boks {
   display: flex;
   flex-direction: row;
-  margin: 3rem 0 10rem 2rem;
+  margin: 3rem 0 0 2rem;
 }
 
 .boks a {
@@ -168,12 +168,12 @@ p {
   background-color: #c8d5f6;
 }
 
-/*.mellemrum {
+.mellemrum {
   width: auto;
   height: 10rem;
   background-color: white;
   margin-bottom: 10rem;
-}*/
+}
 
 
 /*Footer*/
