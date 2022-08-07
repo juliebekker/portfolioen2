@@ -76,7 +76,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 3rem;
+  margin: 3rem 0 10rem 0;
 }
 
 .nav {
@@ -168,12 +168,12 @@ p {
   background-color: #c8d5f6;
 }
 
-.mellemrum {
+/*.mellemrum {
   width: auto;
   height: 10rem;
   background-color: white;
   margin-bottom: 10rem;
-}
+}*/
 
 
 /*Footer*/
