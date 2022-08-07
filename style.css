@@ -127,7 +127,7 @@ p {
   height: 15rem;
   width: 15rem;
   background-color: #fed7dd;
-  margin: 0 3rem 0 3rem;
+  margin: 0 3rem 10rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ p {
   height: 15rem;
   width: 15rem;
   background-color: #fed7dd;
-  margin: 0 3rem 0 3rem;
+  margin: 0 3rem 10rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,7 +157,7 @@ p {
   height: 15rem;
   width: 15rem;
   background-color: #fed7dd;
-  margin: 0 3rem 0 3rem;
+  margin: 0 3rem 10rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,12 +168,12 @@ p {
   background-color: #c8d5f6;
 }
 
-.mellemrum {
+/*.mellemrum {
   width: 10;
   height: 10rem;
   background-color: white;
   padding-bottom: 10rem;
-}
+}*/
 
 
 /*Footer*/
